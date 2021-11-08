@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(0deg,rgba(255,0,150,0.1),rgba(255,0,150,0.3)), url(https://toigingiuvedep.vn/wp-content/uploads/2021/05/tong-hop-hinh-anh-nen-am-nhac-dep-soi-dong-22-820x513.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: wheat;
+    height: 600px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 40px;   
+    border-radius: 20px 20px 4%;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+
+img{
+    top: 0;
+    height: 20%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+} 
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.one{
+    height: 30px;
+    width: 80%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 1.5rem;
+    
+}
+.two{
+    display: flex;
+    background-color: #fff;
+    margin: 0 20px;
+    border-radius: 10px;
+    height: 60px;
+   margin: 30px 20px;
+}
+
+.two-item{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 6.5px;
+}
+
+.itemI{
+    
+    font-size: 25px;
+    background:lightseagreen;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.fas{
+    color: grey;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.itemII{
+    margin-left: 20px;
+    line-height: 1.5rem;
+}
+
+.a{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.bt1{
+    height: 3rem;
+    width: 15rem;
+    background-color: rgb(97, 97, 240);
+    font-size: 1rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.bt2{
+    height: 3rem;
+    width: 15rem;
+    background-color: grey;
+    font-size: 1rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    color: #FFF;
+    margin-top: 10px;
+}

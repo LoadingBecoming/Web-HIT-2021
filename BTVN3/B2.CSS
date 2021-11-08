@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 3% 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 1% 5%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.header-two{
+    margin-right: 3rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    grid-gap: 3rem;
+}
+
+li > a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.header-one{
+    display: flex;
+    grid-gap: 0.5rem;
+    font-size: large;
+}
+
+.header-one > i{
+    padding-top: 20px;
+}
+
+.header > button{
+    height: 3rem;
+    width: 6rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.body{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-content{
+    line-height: 1rem;
+    padding-top: 4rem;
+}
+
+.body-content-one{
+    display: flex;
+    grid-gap:2rem;
+}
+
+.body-content-far{
+    height: 1rem;
+    width: 2rem;
+    padding-top: 1.5rem;
+}
+
+.body-content-img{
+    height: 400px;
+    width: 50%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.body-content-p{
+    font-size: large;
+    width: 80%;
+    line-height: 1.5rem;
+}
+
+.body-content-button{
+    display: flex;
+    grid-gap: 2rem;
+}
+
+.body-content-button > button{
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.bt1{
+    background-color: black;
+    color: #fff;
+}
+
+
+.laster{
+    display: flex;
+    
+    margin-top: 5rem;
+}
+
+.laster-one{
+    padding-top: 3rem;
+}
+
+.laster-img{
+    height: 16.5rem;
+    width: 10rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.laster-two{
+   margin-left: 3rem;
+   display: flex;
+}
+
+h3{
+    position: absolute;
+    color: rgb(230, 79, 24);
+    top: 5rem;
+    left: 1rem;
+}
+
+.together{
+    position: relative;
+}
+
+.laster-one{
+    width: 15%;
+}
+
+.laster-one > p{
+    font-size: 1.1rem;
+}
